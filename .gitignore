@@ -1,0 +1,6 @@
+# LabVIEW specific files
+*.lvlps
+*.aliases
+
+# Vim files
+*.*~
