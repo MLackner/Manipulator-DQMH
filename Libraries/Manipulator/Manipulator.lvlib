@@ -28,6 +28,14 @@
 				<Item Name="Get Status (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Status (Reply Payload)--cluster.ctl"/>
 				<Item Name="Move Axis with Speed Argument--cluster.ctl" Type="VI" URL="../Move Axis with Speed Argument--cluster.ctl"/>
 				<Item Name="Move Axis with Speed (Reply Payload)--cluster.ctl" Type="VI" URL="../Move Axis with Speed (Reply Payload)--cluster.ctl"/>
+				<Item Name="Move to Named Position Argument--cluster.ctl" Type="VI" URL="../Move to Named Position Argument--cluster.ctl"/>
+				<Item Name="Move to Named Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Move to Named Position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Add Named Position Argument--cluster.ctl" Type="VI" URL="../Add Named Position Argument--cluster.ctl"/>
+				<Item Name="Add Named Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Add Named Position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Delete Named Position Argument--cluster.ctl" Type="VI" URL="../Delete Named Position Argument--cluster.ctl"/>
+				<Item Name="Delete Named Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Delete Named Position (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Named Positions Argument--cluster.ctl" Type="VI" URL="../Get Named Positions Argument--cluster.ctl"/>
+				<Item Name="Get Named Positions (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Named Positions (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -44,12 +52,20 @@
 			<Item Name="Get Num Axes.vi" Type="VI" URL="../Get Num Axes.vi"/>
 			<Item Name="Get Position and Speed.vi" Type="VI" URL="../Get Position and Speed.vi"/>
 			<Item Name="Move Axis.vi" Type="VI" URL="../Move Axis.vi"/>
+			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
 			<Item Name="Move Axis with Speed.vi" Type="VI" URL="../Move Axis with Speed.vi"/>
+			<Item Name="Move to Named Position.vi" Type="VI" URL="../Move to Named Position.vi"/>
+			<Item Name="Add Named Position.vi" Type="VI" URL="../Add Named Position.vi"/>
+			<Item Name="Delete Named Position.vi" Type="VI" URL="../Delete Named Position.vi"/>
+			<Item Name="Get Named Positions.vi" Type="VI" URL="../Get Named Positions.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
+		<Item Name="Get Position Names.vi" Type="VI" URL="../Get Position Names.vi"/>
+		<Item Name="Named Position.ctl" Type="VI" URL="../Settings/Named Position.ctl"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
+		<Item Name="Print Position.vi" Type="VI" URL="../Print Position.vi"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -79,22 +95,23 @@
 			<Item Name="Add Position.vi" Type="VI" URL="../Settings/Add Position.vi"/>
 			<Item Name="Create Settings File.vi" Type="VI" URL="../Settings/Create Settings File.vi"/>
 			<Item Name="Delete Position from File.vi" Type="VI" URL="../Settings/Delete Position from File.vi"/>
+			<Item Name="Initialize Settings File.vi" Type="VI" URL="../Settings/Initialize Settings File.vi"/>
 			<Item Name="Load Positions.vi" Type="VI" URL="../Settings/Load Positions.vi"/>
-			<Item Name="Named Position.ctl" Type="VI" URL="../Settings/Named Position.ctl"/>
 			<Item Name="Settings File Path.vi" Type="VI" URL="../Settings/Settings File Path.vi"/>
 			<Item Name="Write Positions to File.vi" Type="VI" URL="../Settings/Write Positions to File.vi"/>
 		</Item>
+		<Item Name="Check Axes Compatibility of Named Positions.vi" Type="VI" URL="../Check Axes Compatibility of Named Positions.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
 		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		<Item Name="Move to Named Position (Sub VI).vi" Type="VI" URL="../Move to Named Position (Sub VI).vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 	</Item>
