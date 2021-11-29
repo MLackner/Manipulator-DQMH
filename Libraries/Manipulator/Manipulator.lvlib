@@ -100,6 +100,7 @@
 			<Item Name="Settings File Path.vi" Type="VI" URL="../Settings/Settings File Path.vi"/>
 			<Item Name="Write Positions to File.vi" Type="VI" URL="../Settings/Write Positions to File.vi"/>
 		</Item>
+		<Item Name="Broadcast Position and Speed (Sub VI).vi" Type="VI" URL="../Broadcast Position and Speed (Sub VI).vi"/>
 		<Item Name="Check Axes Compatibility of Named Positions.vi" Type="VI" URL="../Check Axes Compatibility of Named Positions.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
