@@ -75,6 +75,15 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Settings" Type="Folder">
+			<Item Name="Add Position.vi" Type="VI" URL="../Settings/Add Position.vi"/>
+			<Item Name="Create Settings File.vi" Type="VI" URL="../Settings/Create Settings File.vi"/>
+			<Item Name="Delete Position from File.vi" Type="VI" URL="../Settings/Delete Position from File.vi"/>
+			<Item Name="Load Positions.vi" Type="VI" URL="../Settings/Load Positions.vi"/>
+			<Item Name="Named Position.ctl" Type="VI" URL="../Settings/Named Position.ctl"/>
+			<Item Name="Settings File Path.vi" Type="VI" URL="../Settings/Settings File Path.vi"/>
+			<Item Name="Write Positions to File.vi" Type="VI" URL="../Settings/Write Positions to File.vi"/>
+		</Item>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>

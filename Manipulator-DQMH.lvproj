@@ -55,9 +55,10 @@
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Manipulator API.vi" Type="VI" URL="../Libraries/Manipulator/Test Manipulator API.vi"/>
-			<Item Name="Test cx API.vi" Type="VI" URL="../Libraries/cx/Test cx API.vi"/>
 		</Item>
-		<Item Name="Modules" Type="Folder"/>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="Manipulator.lvlib" Type="Library" URL="../Libraries/Manipulator/Manipulator.lvlib"/>
+		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -144,7 +145,6 @@
 			<Item Name="Show Panel.vi" Type="VI" URL="../Libraries/cx/Show Panel.vi"/>
 			<Item Name="Hide Panel.vi" Type="VI" URL="../Libraries/cx/Hide Panel.vi"/>
 			<Item Name="Manipulator CLI Driver.lvlib" Type="Library" URL="../../Manipulator-CLIDriver/Manipulator CLI Driver.lvlib"/>
-			<Item Name="Manipulator.lvlib" Type="Library" URL="../Libraries/Manipulator/Manipulator.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
