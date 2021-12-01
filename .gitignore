@@ -4,3 +4,6 @@
 
 # Vim files
 *.*~
+
+# Settings File
+settings.json
