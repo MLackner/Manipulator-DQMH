@@ -36,6 +36,8 @@
 				<Item Name="Delete Named Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Delete Named Position (Reply Payload)--cluster.ctl"/>
 				<Item Name="Get Named Positions Argument--cluster.ctl" Type="VI" URL="../Get Named Positions Argument--cluster.ctl"/>
 				<Item Name="Get Named Positions (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Named Positions (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Module Data Argument--cluster.ctl" Type="VI" URL="../Get Module Data Argument--cluster.ctl"/>
+				<Item Name="Get Module Data (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Module Data (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -52,13 +54,13 @@
 			<Item Name="Get Num Axes.vi" Type="VI" URL="../Get Num Axes.vi"/>
 			<Item Name="Get Position and Speed.vi" Type="VI" URL="../Get Position and Speed.vi"/>
 			<Item Name="Move Axis.vi" Type="VI" URL="../Move Axis.vi"/>
-			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 			<Item Name="Get Status.vi" Type="VI" URL="../Get Status.vi"/>
 			<Item Name="Move Axis with Speed.vi" Type="VI" URL="../Move Axis with Speed.vi"/>
 			<Item Name="Move to Named Position.vi" Type="VI" URL="../Move to Named Position.vi"/>
 			<Item Name="Add Named Position.vi" Type="VI" URL="../Add Named Position.vi"/>
 			<Item Name="Delete Named Position.vi" Type="VI" URL="../Delete Named Position.vi"/>
 			<Item Name="Get Named Positions.vi" Type="VI" URL="../Get Named Positions.vi"/>
+			<Item Name="Get Module Data.vi" Type="VI" URL="../Get Module Data.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -66,6 +68,7 @@
 		<Item Name="Named Position.ctl" Type="VI" URL="../Settings/Named Position.ctl"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Print Position.vi" Type="VI" URL="../Print Position.vi"/>
+		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
